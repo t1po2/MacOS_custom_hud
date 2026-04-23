@@ -11,3 +11,7 @@ im a beginner so all i know what to do before is to downlaod:
     -oh my zsh ( ithink that was it name ) 
 
 Good Luck!
+
+
+
+Edit: in sketchybar i have a color.sh its universal for all buttons chek the code and find out ;)
