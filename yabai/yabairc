@@ -1,0 +1,43 @@
+yabai -m config layout bsp
+
+yabai -m config window_placement second_child
+
+#padding
+
+# padding set to 12px
+yabai -m config top_padding 12
+yabai -m config bottom_padding 12
+yabai -m config left_padding 12
+yabai -m config right_padding 12
+yabai -m config window_gap 16
+
+
+
+#
+
+yabai -m config mouse_modifier ctrl
+yabai -m config mouse_action1 move
+yabai -m config mouse_action2 resize
+
+yabai -m mouse_drop_action swap
+
+
+
+
+
+
+#System-Apps
+yabai -m rule --add app="^Aktivitätsanzeige$" manage=off
+yabai -m rule --add app="^Rechner$" manage=off
+yabai -m rule --add app="^Systemeinstellungen$" manage=off
+yabai -m rule --add app="WhatsApp" manage=off
+yabai -m rule --add app="^Spotify$" manage=off
+yabai -m rule --add label="Settings" app="^System.*$" manage=off
+yabai -m rule --add app="^Finder$" manage=off
+
+
+
+borders active_color=0xff50e3c2 inactive_color=0xff494d64 width=10.0 &
+
+
+#default gray 0xff494d64

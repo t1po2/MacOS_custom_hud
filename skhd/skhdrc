@@ -1,0 +1,67 @@
+#change window focus within space
+shift + ctrl - down : yabai -m window --focus south
+shift + ctrl - up : yabai -m window --focus north
+shift + ctrl - left : yabai -m window --focus west
+shift + ctrl - right : yabai -m window --focus east
+
+#change window focus within space normal keys
+shift + ctrl - k : yabai -m window --focus south
+shift + ctrl - i : yabai -m window --focus north
+shift + ctrl - j : yabai -m window --focus west
+shift + ctrl - l : yabai -m window --focus east
+
+# rotate layout clockwise
+ctrl + alt - r : yabai -m space --rotate 270
+
+# flip along y-axis
+ctrl + alt - y : yabai -m space --mirror y-axis
+
+# flip along x-axis
+ctrl + alt - x : yabai -m space --mirror x-axis
+
+# toggle window float
+ctrl + alt - f : yabai -m window --toggle float --grid 4:4:1:1:2:¡
+
+
+
+# maximize a window
+ctrl + alt - m : yabai -m window --toggle zoom-fullscreen
+
+# balance out tree of windows (resize to occupy same area)
+ctrl + alt - e : yabai -m space --balance
+
+
+# move window and split
+
+shift + alt + ctrl - down : yabai -m window --warp south
+shift + alt + ctrl - up : yabai -m window --warp north
+shift + alt + ctrl - left : yabai -m window --warp west
+shift + alt + ctrl - right : yabai -m window --warp east
+
+
+shift + alt + ctrl - k : yabai -m window --warp south
+shift + alt + ctrl - i : yabai -m window --warp north
+shift + alt + ctrl - j : yabai -m window --warp west
+shift + alt + ctrl - l : yabai -m window --warp east
+
+
+# swap windows
+alt + ctrl - down : yabai -m window --swap south
+alt + ctrl - up : yabai -m window --swap north
+alt + ctrl - left : yabai -m window --swap west
+alt + ctrl - right : yabai -m window --swap east
+
+ctrl + alt - k : yabai -m window --swap south
+ctrl + alt - i : yabai -m window --swap north
+ctrl + alt - j : yabai -m window --swap west
+ctrl + alt - l : yabai -m window --swap east
+
+# move window to space #
+# doesnt work tho need to deactivate SIP # 
+cmd + ctrl + alt - 1 : yabai -m window --space 1;
+cmd + ctrl + alt - 2 : yabai -m window --space 2;
+cmd + ctrl + alt - 3 : yabai -m window --space 3;
+cmd + ctrl + alt - 4 : yabai -m window --space 4;
+cmd + ctrl + alt - 5 : yabai -m window --space 5;
+cmd + ctrl + alt - 6 : yabai -m window --space 6;
+cmd + ctrl + alt - 7 : yabai -m window --space 7;
